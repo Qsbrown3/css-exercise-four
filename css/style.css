@@ -1,4 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #dadada;
+  background-color: white;
   font-size: 10px;
+}
+
+.container {
+  margin: 50px auto;
+  border: .5px;
+  background-color: #dcdcdc;
+  padding: 50px;
+  width: 400px;
+  height: flex;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container {
+
+}
+
+.preview_baku {
+  margin: 0;
+  padding: 50px;
+  border: .5px solid black;
+  background-image: url(images/baku.jpg);
+}
+
+.preview_london {
+  margin: 0;
+  padding: 50px;
+  border: .5px solid black;
+  background-image: url(images/london.png);
+}
+
+.preview_madrid {
+  margin: 0;
+  padding: 50px;
+  border: .5px solid black;
+  background-image: url(images/madrid.jpg);
+}
+
+.preview_rome {
+  margin: 0;
+  padding: 50px;
+  border: .5px solid black;
+  background-image: url(images/rome.jpg);
 }
