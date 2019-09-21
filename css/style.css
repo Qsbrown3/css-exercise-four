@@ -12,12 +12,15 @@ body {
   border: .5px;
   background-color: #dcdcdc;
   padding: 50px;
-  width: 400px;
+  width: 300px;
   height: flex;
+
 }
 
 .container h1 {
   text-align: center;
+  display: block;
+
 }
 
 .container {
@@ -28,26 +31,28 @@ body {
   margin: 0;
   padding: 50px;
   border: .5px solid black;
-  background-image: url(images/baku.jpg);
+  background-image: url("images/baku.jpg");
+
+
 }
 
 .preview_london {
   margin: 0;
   padding: 50px;
   border: .5px solid black;
-  background-image: url(images/london.png);
+  background-image: url("images/london.png");
 }
 
 .preview_madrid {
   margin: 0;
   padding: 50px;
   border: .5px solid black;
-  background-image: url(images/madrid.jpg);
+  background-image: url("images/madrid.jpg");
 }
 
 .preview_rome {
   margin: 0;
   padding: 50px;
   border: .5px solid black;
-  background-image: url(images/rome.jpg);
+  background-image: url("images/rome.jpg");
 }
