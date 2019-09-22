@@ -12,25 +12,36 @@ body {
   margin: 0;
   border: .5px;
   margin-right: 40px;
-  background-color: pink;
-  padding: 50px;
+  background-color: #f2f4f4;
+  padding: 0px;
+  padding-top: 10px;
   width: auto;
   height: flex;
   display: inline-block;
-
-
 }
 
+
 .container h1 {
+  position: relative;
   text-align: center;
   padding-bottom: 20px;
   padding-top: 10px;
-
-
+  font-family: system-ui, sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
 }
 
+@media screen and (min-width: 575) {
+  .container {
+    margin: 20px;
+    padding: 20px;
+    background-color: purple;
+  }
+}
+
+
 .preview_baku {
-  width: auto;
+  width: 200px;
   padding: 50px;
   border: .5px;
   margin-bottom: 5px;
@@ -39,6 +50,7 @@ body {
 }
 
 .preview_london {
+  width: 200px;
   margin: 0;
   padding: 50px;
   border: .5px;
@@ -49,8 +61,10 @@ body {
 
 .preview_madrid {
   margin: 0;
+  width: 200px;
   padding: 50px;
   border: .5px;
+  margin-bottom: 5px;
   background-image: url("../images/madrid.jpg");
   background-size: cover;
 }
@@ -61,8 +75,4 @@ body {
   border: .5px;
   background-image: url("../images/rome.jpg");
   background-size: cover;
-}
-
-.preview h1 {
-
 }
