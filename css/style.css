@@ -22,10 +22,7 @@ body {
 
 @media screen and (min-width: 575px) {
   .container {
-    padding: 500px
-    display: grid;
-    grid-gap: 5rem;
-    grid-template-columns: 200px 200px;
+    display: inline-block;
   }
 }
 
@@ -83,39 +80,38 @@ body {
       box-sizing: border-box;
       margin: 5px;
       padding: 10px;
-
-
+      margin: 3%;
   }
 }
 
 @media screen and (min-width: 575px){
-.preview_london {
-  box-sizing: border-box;
+  .preview_london {
+   box-sizing: border-box;
     padding: 10px;
-    margin: 5px;
-
+    float: left;
+    margin: 3%;
   }
 }
 
 @media screen and (min-width: 575px){
-.preview_madrid {
+  .preview_madrid {
       box-sizing: border-box;
       margin: 5px;
       padding: 10px;
-
-
+      float: left;
+      margin: 3%;
   }
 }
 
 @media screen and (min-width: 575px){
-.preview_rome {
-    box-sizing: border-box;
+  .preview_rome {
+   box-sizing: border-box;
     padding: 10px;
-    margin: 5px;
-
-
+    float: left;
+    margin: 3%;
   }
 }
+
 h1 {
   text-align: left;
   top: 100px;
