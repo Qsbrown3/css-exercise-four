@@ -21,7 +21,6 @@ body {
 
 @media screen and (min-width: 575px) {
   .container {
-    display: inline-block;
 
 
   }
@@ -29,7 +28,6 @@ body {
 
 @media screen and (min-width: 991px) {
   .container {
-    display: inline-block;
 
 
 
@@ -80,8 +78,7 @@ body {
 }
 
 @media screen and (min-width: 575px) {
-   .preview_baku, .preview_london {
-     display: inline-block;
+   .preview_baku, .preview_london, .preview_rome, .preview_madrid {
      width: 100%;
      float: left;
      margin: 3%;
@@ -91,9 +88,9 @@ body {
  }
 
 
- @media screen and (min-width: 575px) {
-   .preview_rome, .preview_madrid {
-     display: inline-block;
+ /*@media screen and (min-width: 575px) {
+    {
+
      width: 100%;
      float: left;
      margin: 3%;
@@ -141,6 +138,7 @@ body {
     height: auto;
   }
 }
+*/
 
 
 h1 {
