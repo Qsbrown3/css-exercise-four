@@ -23,12 +23,17 @@ body {
 @media screen and (min-width: 575px) {
   .container {
     display: inline-block;
+    padding-bottom: 30%;
+
   }
 }
 
 @media screen and (min-width: 991px) {
   .container {
-    padding: 100px;
+    display: inline-block;
+    padding-bottom: 40%;
+    margin-left: 30%;
+
   }
 }
 
@@ -73,44 +78,82 @@ body {
   background-size: cover;
 }
 
+@media screen and (min-width: 575px) {
+   .preview_baku {
+     display: inline-block;
+     width: 40%;
+     float: left;
+     margin: 5px;
 
+   }
+ }
 
-@media screen and (min-width: 575px){
-.preview_baku {
-      box-sizing: border-box;
-      margin: 5px;
-      padding: 10px;
-      margin: 3%;
-  }
-}
+ @media screen and (min-width: 575px) {
+   .preview_london {
+     display: inline-block;
+     width: 40%;
+     float: left;
+     margin: 5px;
+   }
+ }
 
-@media screen and (min-width: 575px){
-  .preview_london {
-   box-sizing: border-box;
-    padding: 10px;
-    float: left;
-    margin: 3%;
-  }
-}
+ @media screen and (min-width: 575px) {
+   .preview_rome {
+     display: inline-block;
+     width: 40%;
+     float: left;
+     margin: 5px;
 
-@media screen and (min-width: 575px){
+   }
+ }
+
+ @media screen and (min-width: 575px) {
   .preview_madrid {
-      box-sizing: border-box;
-      margin: 5px;
-      padding: 10px;
-      float: left;
-      margin: 3%;
+    display: inline-block;
+    width: 40%;
+    float: left;
+    margin: 5px;
   }
 }
 
-@media screen and (min-width: 575px){
-  .preview_rome {
-   box-sizing: border-box;
-    padding: 10px;
+
+@media screen and (min-width: 991px) {
+   .preview_baku {
+     display: inline;
+     width: 20%;
+     float: left;
+     margin: 5px;
+   }
+ }
+
+ @media screen and (min-width: 991px) {
+   .preview_london {
+     display: inline;
+     width: 20%;
+     float: left;
+     margin: 5px;
+   }
+ }
+
+ @media screen and (min-width: 991px) {
+   .preview_rome {
+     display: inline;
+     width: 20%;
+     float: left;
+     margin: 5px;
+
+   }
+ }
+
+ @media screen and (min-width: 991px) {
+  .preview_madrid {
+    display: inline;
+    width: 20%;
     float: left;
-    margin: 3%;
+    margin: 5px;
   }
 }
+
 
 h1 {
   text-align: left;
