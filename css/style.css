@@ -11,7 +11,6 @@ body {
 .container {
   margin: 0;
   border: .5px;
-  margin-right: 40px;
   background-color: #f2f4f4;
   padding: 0px;
   padding-top: 10px;
@@ -21,21 +20,18 @@ body {
 }
 
 
-.container h1 {
-  position: relative;
-  text-align: center;
-  padding-bottom: 20px;
-  padding-top: 10px;
-  font-family: system-ui, sans-serif;
-  font-weight: 200;
-  text-transform: uppercase;
+@media screen and (min-width: 575px) {
+  .container {
+    padding: 500px
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: 200px 200px;
+  }
 }
 
-@media screen and (min-width: 575) {
+@media screen and (min-width: 991px) {
   .container {
-    margin: 20px;
-    padding: 20px;
-    background-color: purple;
+    padding: 100px;
   }
 }
 
@@ -47,6 +43,8 @@ body {
   margin-bottom: 5px;
   background-image: url("../images/baku.jpg");
   background-size: cover;
+  position: relative;
+  text-align: left;
 }
 
 .preview_london {
@@ -73,6 +71,85 @@ body {
   margin: 0;
   padding: 50px;
   border: .5px;
+  width: 200px;
   background-image: url("../images/rome.jpg");
   background-size: cover;
 }
+
+
+
+@media screen and (min-width: 575px){
+.preview_baku {
+      box-sizing: border-box;
+      margin: 5px;
+      padding: 10px;
+
+
+  }
+}
+
+@media screen and (min-width: 575px){
+.preview_london {
+  box-sizing: border-box;
+    padding: 10px;
+    margin: 5px;
+
+  }
+}
+
+@media screen and (min-width: 575px){
+.preview_madrid {
+      box-sizing: border-box;
+      margin: 5px;
+      padding: 10px;
+
+
+  }
+}
+
+@media screen and (min-width: 575px){
+.preview_rome {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 5px;
+
+
+  }
+}
+h1 {
+  text-align: left;
+  top: 100px;
+  left: 200px;
+  font-size: 1.3em;
+  font-weight: 200;
+}
+
+@media screen and (min-width: 575px) {
+   h1 {
+  }
+}
+
+@media screen and (min-width: 991px){
+  h1 {
+    text-align: ;
+  }
+}
+
+#top h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  font-family: system-ui, sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+
+
+/*
+@media Scree and (min-width: 991px) {
+  .preview_baku, .preview_london, .preview_madrid, .preview_rome {
+    display: inline-block;
+    margin-right: 40px;
+  }
+} */
