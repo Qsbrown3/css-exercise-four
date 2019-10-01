@@ -81,13 +81,17 @@ h1 {
   }
   .header {
     font-size: 2em;
+
   }
   .preview {
     margin: 0 2% 2% 0;
     padding: 5% 0 25% 5%;
-    width: 80%;
+    width: 35%;
     font-size: 2em;
     float: left;
+  }
+  #top h1 {
+      width:80%;
   }
 }
 
@@ -103,8 +107,11 @@ h1 {
   .preview {
     margin: 0 2% 2% 0;
     padding: 2% 0 25% 2%;
-    width: 23%;
+    width: 18%;
     font-size: 3em;
     float: left;
+  }
+  #top h1 {
+    width: 85%;
   }
 }
